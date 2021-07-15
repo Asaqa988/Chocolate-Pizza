@@ -13,9 +13,16 @@ header div{
 }
 header div h1{
 position: absolute;
-bottom: 19%;
-left:2%;
+top: -37px;
+bottom: 30px;
+left: 4%;
 font-family:'festive';}
+header div p {
+
+    position: absolute;
+    bottom: -17px;
+    left: 35px;
+}
 
 span{
 position: absolute;
@@ -43,7 +50,7 @@ section{
     position: absolute;
     /* top: 80%; */
     bottom:54px;
-    font-size: 40px;
+    font-size: 32px;
     margin-left: 50px;
     margin-top: 200px;
 }
@@ -52,7 +59,7 @@ section{
     position: absolute;
     /* top: 80%; */
     bottom:55px;
-    font-size: 40px;
+    font-size: 28px;
     margin-left: 700px;
     left:100px;
 }
@@ -65,11 +72,17 @@ section{
 position: absolute;
 bottom: 19%;
 left:70px;
-font-family:'festive';}
+font-weight: bolder;
+}
 
-#sectionlast span{
+main div h1 {
+
+    font-weight:bolder;
+}
+
+/* #sectionlast span{
 position: absolute;
-right:200px;
+right:1px;
 top: 30px;  
 background-color: #bd7c47; 
 border: none;
@@ -79,10 +92,96 @@ text-align: center;
 text-decoration: none;
 display: inline-block;
 font-size: 30px;  
+} */
+
+
+
+button{
+    background-color: #bd7c47;border: none;color: cornsilk;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;cursor: pointer;
+position: absolute;
+/* right:1px;
+top: 30px; */
+left: 967px;
+bottom: 32px;
+
 }
 
 #sectionlast div img{
     width:60px;
     height: 60px;
 }
+footer img{
+margin-left:50%;
+margin-top: -1%;
 
+
+}
+footer #lastP  {
+
+margin-left: 547px;
+font-size: 20px;
+
+}
+
+footer{
+border-style: solid;
+border-left: 0px solid;
+border-right: 0px solid;
+border-bottom: 0px; solid;
+
+}
+
+#divforpic p{
+
+    float: left;
+}
+
+#divforpic img{
+
+    float: right;
+    width: 10px;
+    height: 10px;
+}
+
+
+#divforpic #ppp {
+    float: right;
+}
+
+#print p {
+
+
+    position:absolute;
+    right:168px;
+    top: 147px;
+    bottom: 10px;
+
+}
+#print img {
+
+
+    position:absolute;
+    right:203px;
+    top: 168px;
+    bottom: 10px;
+
+}
+
+#sectionlast{
+
+    border-style: solid;
+    border-left: 0px solid;
+    border-right: 0px solid;
+    border-bottom: 0px solid;
+    border-color: gray;
+    border-top-width: thick;
+
+}
+
+footer #proudly  {
+
+    text-align: center;
+    margin-left: 87px;
+    font-size: 20px;
+    
+}
