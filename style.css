@@ -1,0 +1,88 @@
+*{
+    box-sizing:border-box;
+    
+}
+header{
+
+    margin-left: 5%;
+    margin-top: 2%;
+}
+header div{
+
+    position: relative;
+}
+header div h1{
+position: absolute;
+bottom: 19%;
+left:2%;
+font-family:'festive';}
+
+span{
+position: absolute;
+right:200px;
+top: 50px;    
+}
+main{
+
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-right:10% ;
+
+}
+
+main img{
+    width: 100%;
+}
+
+section{
+    position: relative;
+}
+
+
+#ul1{
+    position: absolute;
+    /* top: 80%; */
+    bottom:54px;
+    font-size: 40px;
+    margin-left: 50px;
+    margin-top: 200px;
+}
+
+#ul2{
+    position: absolute;
+    /* top: 80%; */
+    bottom:55px;
+    font-size: 40px;
+    margin-left: 700px;
+    left:100px;
+}
+
+#sectionlast{
+
+    position: relative;
+}
+#sectionlast h2{
+position: absolute;
+bottom: 19%;
+left:70px;
+font-family:'festive';}
+
+#sectionlast span{
+position: absolute;
+right:200px;
+top: 30px;  
+background-color: #bd7c47; 
+border: none;
+color:aliceblue;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 30px;  
+}
+
+#sectionlast div img{
+    width:60px;
+    height: 60px;
+}
+
